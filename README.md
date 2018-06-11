@@ -22,8 +22,8 @@ and `--project` in CLI), and `MyApp.Web` as the startup project (`-StartupProjec
 CLI).
 
 ```sh
-cd ./MyApp.Web/
-dotnet ef migrations add Migration2 --project ../MyApp.Migrations/
+cd ./MyApp.Migrations/
+dotnet ef migrations add Migration2 --startup-project ../MyApp.Web/
 ```
 
 Points of interest
